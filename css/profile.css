@@ -1,0 +1,12 @@
+input:focus + label {
+    color: #7BADE8;
+    transform: translate(-2.2em,-1em) scale(.7);
+    padding: 0 .5em;
+    opacity: 100%;
+}
+textarea:focus + label {
+    color: #7BADE8;
+    transform: translate(-2.2em,-1em) scale(.7);
+    padding: 0 .5em;
+    opacity: 100%;
+}
