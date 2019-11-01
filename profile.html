@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <div class="container profile">
+        <div class="bar">
+                <div class="dropdown">
+                    <a class="dropButton">Menu</a>
+                    <div class="dropContent">
+                        <a href="#">Account</a>
+                        <a href="#">Recent</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Transactions</a>
+                    </div>
+                </div>
+            <div class="logo">
+                <h2>DWiMM</h2>
+            </div>
+            <a href="index.html"><h2>Sign Out</h2></a>
+        </div>
+        <div class="main">
+            <div class="profile box-container">
+                <div class="topButtons">
+                    <div class="top send">
+                        <h2>Send</h2>
+                    </div>
+                    <div class="top request">
+                        <h2>Request</h2>
+                    </div>
+                </div>
+                <div class="box-container">
+                        <div class="inputFields">
+                            <input name="source" type="text" required>
+                            <label for="input">From</label>
+                        </div>
+                        <div class="inputFields">
+                            <input name="destination" type="text" required>
+                            <label for="input">To</label>
+                        </div>
+                        <div class="inputFields">
+                            <input name="amount" type="text" required>
+                            <label for="input">Amount</label>
+                        </div>
+                        <div class="inputFields">
+                            <textarea name="notes" cols="10" rows="5"></textarea>
+                            <label for="textarea">Notes</label>
+                        </div>
+                        <div class="button">
+                            <button class="submitButton">Send</button>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="bar">
+                <a href="contacts.html"><h2>Contact Us</h2></a>
+                <a href="about.html"><h2>About Us</h2></a>
+            </div>
+    </div>
+    <script src="scripts/profileScript.js"></script>
+</body>
+</html>
