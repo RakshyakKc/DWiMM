@@ -9,7 +9,7 @@
 - Functioning profile page
 - Has pages to create and account and sign in
 
-![](https://im4.ezgif.com/tmp/ezgif-4-32ed20da674e.gif)
+![](https://imgur.com/a/iVjgu7c)
 
 ## Acknowledgments
 
